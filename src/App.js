@@ -27,6 +27,10 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state.word = this.getWord()
+    
+    document.addEventListener('keypress', (key) => {
+      this.handleKeysClick(key.key.toUpperCase());
+    });
   }
   
   computeDisplay(phrase, usedLetters) {
