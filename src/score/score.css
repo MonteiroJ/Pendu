@@ -1,0 +1,42 @@
+.scores {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 7px;
+
+    font-size: 2em;
+}
+.scores > .right {
+    margin-right: 14px;
+}
+
+.left { float: left; }
+.right { float: right; }
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right;}
+
+#adding-score {
+    position: relative;
+    font-size: 0.5em;
+    padding: 7px;
+    border-radius: 10px;
+}
+#adding-score:hover, 
+#adding-score:focus,
+#adding-score:active {
+    animation-name: animation;
+    animation-duration: 1.5s;
+}
+.plus {
+    background: #28a745;
+}
+.minus {
+    background: #dc3545;
+}
+#score {
+    margin-right: 7px;
+}
+#attempts {
+    margin-right: 14px;
+}
